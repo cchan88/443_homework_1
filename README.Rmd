@@ -1,0 +1,12 @@
+---
+title: "443_homework_1"
+output: github_document
+---
+
+```{r}
+x <-read.table("DC19.txt", header = TRUE, sep = ",", stringsAsFactors = FALSE)
+y <- head(x[, 1:15], n = 10)
+print.data.frame(y)
+```
+
+
